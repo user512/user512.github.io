@@ -7,7 +7,7 @@ const Icon = (props) => {
   return(
     <span>
       { link ?
-        <a href={ link } class={ className }></a> :
+        <a href={ link } target="_blank" class={ className }></a> :
         <span class={ className }></span>
       }
     </span>
