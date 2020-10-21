@@ -1,0 +1,30 @@
+{
+  "name": "user512.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:user512/user512.github.io.git",
+  "author": "Tom Lee <user512@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "rm -rf dist",
+    "nuke": "rm -rf node_modules dist"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "fontsource-roboto-mono": "^3.0.3",
+    "ic": "^0.0.1",
+    "preact": "^10.5.5",
+    "typed.js": "^2.0.11"
+  },
+  "babel": {
+    "skipLibCheck": true
+  }
+}
