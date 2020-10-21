@@ -10,6 +10,10 @@ $black: #000000;
 $sidebar-color: rgba($light-purple, .95);
 $hover-button-color: rgba($white, .8);
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $dark-grey;
   color: white;
