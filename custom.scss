@@ -93,6 +93,10 @@ a {
 #about {
   background-color: $dark-blue;
 
+  p {
+    text-align: left;
+  }
+
   a {
     color: $light-blue;
   }
