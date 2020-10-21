@@ -20,7 +20,7 @@ class Introduction extends Component {
   render() {
     return (
       <div id="introduction" className="container">
-        <p>Hi, my name is <strong className="author-name">Tom Lee</strong></p>
+        <p>Hi, my name is <strong className="author-name">Tom Lee</strong>,</p>
         <p>and I <span className="typing" ref={(element) => { this.element = element }} >
           </span>
         </p>
