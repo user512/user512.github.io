@@ -2,6 +2,7 @@ $white: #ffffff;
 $hover-button-color: rgba($white, .8);
 
 .icon {
+  color: $white;
   &:hover {
     color: $hover-button-color;
   }

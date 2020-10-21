@@ -1,7 +1,8 @@
 import { h } from 'preact'
 
 const Icon = (props) => {
-  const className = `icon ${props.icon}`
+  const sizeClassName = props.size === 'xl' ? 'font-xl' : null
+  const className = `icon ${props.icon} ${sizeClassName}`
   const link = props.link
 
   return(
