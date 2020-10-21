@@ -20,7 +20,7 @@ export default function Sidebar(props) {
         <ul>
           { items.map( ({href, text}) => (
             <li>
-              <a href={href}>{text}</a>
+              <a href={ href } onClick={ () => toggleShow() }>{ text }</a>
             </li>
           )) }
         </ul>
