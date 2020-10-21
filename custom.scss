@@ -23,13 +23,14 @@ a {
 
 .sidebar {
   padding: 16px;
+  position: fixed;
 
   .nav {
     animation-duration: .2s;
     background-color: $sidebar-color;
+    position: fixed;
     height: 100%;
     left: 0;
-    position: fixed;
     top: 0;
     width: 300px;
     z-index: 1;
