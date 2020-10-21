@@ -1,6 +1,5 @@
 import { h, createRef } from 'preact'
 import { useState, useCallback } from 'preact/hooks';
-import { setConstantValue } from 'typescript';
 
 export default function Sidebar(props) {
   const [show, setShow] = useState(false)

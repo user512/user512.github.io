@@ -13,14 +13,12 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.27.0",
-    "typescript": "^4.0.3"
+    "sass": "^1.27.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free": "^5.15.1",
     "fontsource-roboto-mono": "^3.0.3",
-    "ic": "^0.0.1",
     "preact": "^10.5.5",
     "typed.js": "^2.0.11"
   },
