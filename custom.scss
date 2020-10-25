@@ -144,6 +144,11 @@ a {
       }
     }
   }
+
+  .scroll-info {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .font-sm {

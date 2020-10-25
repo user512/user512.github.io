@@ -15,6 +15,10 @@ const Home = () => {
         <Icon link="https://www.linkedin.com/in/tomlee512/" icon="linkedin" size="xl" />
         <Icon link="mailto:me@tomlee.email" icon="email" size="xl" />
       </div>
+      <div className="scroll-info">
+        <span>Scroll for details</span>
+        <Icon icon="chevron-down" size="base" />
+      </div>
     </div>
   )
 }

@@ -28,6 +28,13 @@ $hover-button-color: rgba($white, .8);
   content: "\f0e0";
 }
 
+.chevron-down::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+  content: "\f078";
+}
+
 .github::before {
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
