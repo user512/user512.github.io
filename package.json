@@ -19,6 +19,7 @@
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free": "^5.15.1",
     "fontsource-roboto-mono": "^3.0.3",
+    "normalize.css": "^8.0.1",
     "preact": "^10.5.5",
     "typed.js": "^2.0.11"
   },
